@@ -14,7 +14,7 @@ RUN cabal update && cabal install pandoc-${PANDOC_VERSION} && apt-get update -y 
     fontconfig \
     lmodern \
     wget xzdec && \
-    tlmgr init-usertree && tlmgr install memoir \
+    tlmgr init-usertree && tlmgr install memoir titlesec \
     apt-get clean
     
 WORKDIR /source

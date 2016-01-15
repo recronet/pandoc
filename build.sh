@@ -1,1 +1,1 @@
-docker build -t pandoc .
+docker build -t recronet/pandoc .
